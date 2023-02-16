@@ -3,7 +3,7 @@
 /**
  * main - functions that prints the size of various types on the computer
  * by Theodora Aidoo
- * Return: o on success
+ * Return: 0 on success
  */
 int main(void)
 {
@@ -12,5 +12,5 @@ int main(void)
 	printf("Size of a long int:%lu byte(s)", sizeof(long int));
 	printf("Size of a long long int:%lu byte(s)", sizeof(long long int));
 	printf("Size of a float:%lu byte(s)", sizeof(float));
-	return (o);
+	return (0);
 }
