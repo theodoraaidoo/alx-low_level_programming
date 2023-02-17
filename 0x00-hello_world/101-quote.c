@@ -2,7 +2,7 @@
 #include <unistd.h>
 /**
  * main - print and that piece of art is useful
- * Return: 1 (Success)
+ * Return: 1(Success)
  */
 int main(void)
 {
