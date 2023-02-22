@@ -1,12 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - Prints the add of the even-valued
- * fibonacci numbers.
- *
- * Return: Always 0.
+ * main - Prints the sum of even Even Fibonacci numbersless
+ * less than 4000000
+ * Return: nothing!
  */
+
 int main(void)
+
 {
 	int i = 0;
 	long j = 1, k = 2, sum = k;
