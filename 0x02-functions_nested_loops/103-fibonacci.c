@@ -8,18 +8,16 @@
  */
 int main(void)
 {
-	long int k1, k2, rn, arn;
+	int i = 0;
+	long j = 1, k = 2, sum = k;
 
-	k1 = 1;
-	k2 = 2;
-	rn = arn = 0;
-	while (rn <= 4000000)
+	while (k + j < = 4000000)
 	{
-	rn = k1 + k2;
-	k1 = k2;
-	k2 = rn;
-	if ((k1 % 2) == 0)
-	{
-	arn += k1;
+	k += j;
+	if (k % 2 == 0)
+	sum += k;
+	j = k - j;
+	++1;
 	}
-}
+	printf("%ld\n", sum);
+	return (0);
