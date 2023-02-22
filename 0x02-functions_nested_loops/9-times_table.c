@@ -1,12 +1,10 @@
 #include "main.h"
 
 /*
- * times_table - Prints the 9 times table
- *
- * Return: no return
- */
-
-void times_table(void)
+ *This function prints the multiplication table for 9 from 1 to 10.
+ *It does not take any input parameters and does not return any value.
+*/
+int void times_table(void)
 {
 	int a, b, n;
 
