@@ -1,6 +1,13 @@
 #include <stdio.h>
 
-int main(void)
+/*
+ * This program demonstrates how to modify a[2] indirectly through a pointer p.
+ * The value of a[2] is initially set to 1024, but is changed to 98
+ * using a pointer.
+ * The program prints the value of a[2] after the modification.
+*/
+
+int main(void);
 {
 	int n;
 	int a[5];
